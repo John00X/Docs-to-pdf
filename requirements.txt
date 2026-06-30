@@ -1,2 +1,14 @@
-streamlit>=1.35.0
-pypdf>=4.2.0
+# Word → PDF Converter — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# Modern dark/light-mode GUI framework (built on tkinter)
+customtkinter>=5.2.0
+
+# Word document → PDF conversion
+# NOTE: On Windows, Microsoft Word must be installed.
+# On macOS, LibreOffice is used automatically.
+# On Linux, LibreOffice must be installed: sudo apt install libreoffice
+docx2pdf>=0.1.8
+
+# PDF merging (pypdf is the actively-maintained fork of PyPDF2)
+pypdf>=4.0.0
