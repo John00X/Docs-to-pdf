@@ -9,7 +9,7 @@ from pypdf import PdfWriter, PdfReader
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Doc & PDF Toolkit",
+    page_title="DOCs-PDFs Converter & Merger",
     page_icon="📄",
     layout="centered",
 )
